@@ -1,0 +1,7 @@
+.mentors-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 35px;
+}

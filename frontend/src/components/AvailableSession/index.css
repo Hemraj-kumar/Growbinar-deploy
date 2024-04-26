@@ -1,0 +1,77 @@
+.available-sessions-com {
+  border: 0.5px solid #d9d9d9;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.available-sessions-com .available-sessions-heading {
+  font-size: 26px;
+  font-weight: 500;
+}
+.available-sessions-com .available-sessions-sub-heading {
+  font-size: 20px;
+  font-weight: 500;
+  color: #636b78;
+}
+.available-sessions-com .book-selected-slot-btn {
+  font-size: 20px;
+  font-weight: 500;
+  color: #f9f9fa;
+  background-color: #000000;
+  border-radius: 8px;
+  padding: 10px;
+}
+.available-sessions-com .date-slots,
+.available-sessions-com .time-slots {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: scroll;
+  width: 100%;
+}
+.available-sessions-com .date-slot-item {
+  padding: 8px 15px;
+  border: 1px solid #d1d4d6;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+}
+.available-sessions-com .date-slot-item .slot-day {
+  font-size: 12px;
+  font-weight: 600;
+  color: #3f3d4d;
+}
+.available-sessions-com .date-slot-item .slot-date {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+.available-sessions-com .date-slot-item .available-slots {
+  color: #10de16;
+  font-size: 12px;
+  font-weight: 600;
+}
+.available-sessions-com .time-slot-item {
+  padding: 15px 60px;
+  border: 1px solid #d1d4d6;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95px;
+  text-wrap: nowrap;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.available-sessions-com .time-slot-item:hover,
+.available-sessions-com .date-slot-item:hover {
+  cursor: pointer;
+}
+.time-slots::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,85 @@
+.welcome-container {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  left: 20px;
+}
+.horizontal-divider {
+  margin-top: 30px;
+  padding: 20px;
+}
+.welcome-text {
+  color: #000;
+  text-align: left;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.progress-text {
+  color: #000;
+  text-align: left;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  padding: 32px;
+}
+.main-text {
+  color: #130f26;
+  text-align: left;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.page-wrapper {
+  margin-left: 15px;
+}
+.impact-text {
+  color: #464646;
+  text-align: center;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+}
+.chart-box {
+  width: 415px;
+  height: 380px;
+  border-width: 2px;
+  border-radius: 2px;
+  border-color: #6c60fe;
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.progress-chart {
+  margin: auto;
+  margin-top: 115px;
+  margin-bottom: 150px;
+  flex-shrink: 0;
+}
+.graph-date-container {
+  display: flex;
+  flex: 1;
+  gap: 5rem;
+}
+.bigger-text {
+  width: 900px;
+  height: 200px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+.emoji-text {
+  color: #b9b5f9;
+  font-size: 96px;
+  font-style: normal;
+  white-space: pre-line;
+  font-weight: 700;
+  line-height: 102px; /* 106.25% */
+  letter-spacing: -1.92px;
+}

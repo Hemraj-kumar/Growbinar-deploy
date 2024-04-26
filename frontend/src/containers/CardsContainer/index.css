@@ -1,0 +1,39 @@
+.card-text{
+    color: #455A64;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;  
+}
+.start-button{
+    color: whitesmoke;
+    display: flex;
+    width: 78px;
+    height: 31px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-right: 10px;
+    background: #03A100;
+    cursor: pointer;
+}
+.timing-text{
+    color: #464646;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    margin-left:53px;
+    margin-top: 35px;
+}   
+.card-image{
+    width: 43px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    margin-top: 13px;
+}

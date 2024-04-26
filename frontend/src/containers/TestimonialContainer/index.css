@@ -1,0 +1,14 @@
+.test-content {
+  color: var(--Grey, #9f9f9f);
+  font-family: "Circular Std Medium";
+  font-size: 14px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 450;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.14px;
+}
+.mentor_arrow {
+  display: flex;
+  margin-left: auto;
+}

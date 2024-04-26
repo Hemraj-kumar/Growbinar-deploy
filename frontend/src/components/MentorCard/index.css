@@ -1,0 +1,124 @@
+.mentor-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 10px;
+  /* height: 360px; */
+  max-width: 270px;
+  gap: 10px;
+  text-overflow: ellipsis;
+  border: 0.5px solid #d9d9d9;
+  border-radius: 8px;
+}
+
+.mentor-image {
+  object-fit: fill;
+}
+
+.mentor-image-container {
+  position: relative;
+  align-self: center;
+}
+.top-rated-mentor {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.tagline {
+  color: white;
+  background-color: #6c63ff;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+}
+.mentor-language-tag {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  color: black;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  max-width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+}
+.mentor-details,
+.slot-details {
+  padding: 0 5px;
+}
+.mentor-name {
+  font-size: 24px;
+  font-weight: 500;
+  color: #6c63ff;
+  width: 245px;
+}
+.mentor-name h3,
+.mentor-designation-org h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-wrap: nowrap;
+  max-width: 245px;
+}
+
+.mentor-designation-org {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #464646;
+}
+
+.organization-name {
+  color: #a1a6ad;
+}
+.designation-org-text:before {
+  content: url("../../assets/images/location-marker.svg") " ";
+}
+.years-of-experience {
+  font-size: 18px;
+  font-weight: 400;
+  color: #636b78;
+}
+.slot-details {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: space-between;
+}
+.available-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+.slot-time {
+  font-size: 16px;
+  font-weight: 700;
+  color: #6c63ff;
+}
+
+.book-mentor-button {
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #000;
+  color: #f9f9fa;
+  padding: 5px 30px;
+  border-radius: 8px;
+  height: 40px;
+  align-self: end;
+}
+.sessions-conducted {
+  color: #636b78;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 5px;
+}

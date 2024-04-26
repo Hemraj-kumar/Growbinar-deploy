@@ -1,0 +1,40 @@
+.mentor-cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: nowrap;
+  margin-top: 15px;
+  position: relative;
+  overflow: scroll;
+}
+.browse-mentors-card-container {
+  max-height: 416px;
+  min-width: 300px;
+}
+.browse-mentors-post {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.discover-mentor-text {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  position: relative;
+  bottom: 106px;
+  left: 30px;
+}
+.browse-mentors-btn {
+  position: absolute;
+  bottom: 35px;
+  left: 55px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #f9f9fa;
+  background-color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 1;
+}

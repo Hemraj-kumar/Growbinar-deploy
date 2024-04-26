@@ -1,0 +1,65 @@
+.browse-mentors-container{
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.browse-mentors-heading{
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    border-bottom: 3px solid black;
+    padding: 5px 0 ;
+    width: fit-content;
+}
+.sort-mentors-section{
+    display: flex;
+    gap:20px;
+}
+.sort-mentors-text{
+    font-size: 16px;
+    font-weight: 500;
+    color:#464646;
+    line-height: 2;
+}
+.sort-by-option{
+    font-size: 16px;
+    font-weight:500;
+    color:#6C63FF;
+    padding:5px 10px;
+    border-radius: 15px;
+    border:1px solid #6C63FF;
+}
+.domain-filters-section{
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+.domain-filter-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    background-color:  #FBFBFB;
+    color: #91909B;
+    padding:5px 10px;
+    border-radius: 15px;
+}
+.domain-filter-option:focus{
+    color:  #6C63FF;
+}
+.browse-mentors-container .mentor-cards-container{
+    flex-wrap: wrap;
+    gap:40px 55px;
+}
+.view-more-mentors-btn{
+    color:white;
+    background-color:#6C63FF;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding:15px 25px;
+    width: fit-content;
+    align-self: center;
+    margin-top:20px;
+}

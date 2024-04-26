@@ -1,0 +1,129 @@
+.mentee-dashboard-container {
+  padding: 20px 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.get-started-content {
+  display: flex;
+  background-color: #dade10;
+  border-radius: 8px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.get-started-content p {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.browse-mentors-button {
+  background-color: #6c63ff;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 40px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0px -4px 5px 0px #fff, 1px 2px 0px 1px #655fc9;
+}
+
+.browse-mentors-button:before {
+  content: url("../../assets/images/flame-icon.svg");
+  font-family: "Times New Roman", Times, serif;
+  padding-right: 5px;
+}
+
+.welcome-text .username {
+  color: #636b78;
+}
+.welcome-container {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  left: 20px;
+}
+.welcome-text {
+  color: #000;
+  text-align: left;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.upcoming-session-text {
+  margin-top: 10px;
+  font-weight: 500;
+}
+.main-text {
+  margin-bottom: 10px;
+}
+.upcoming-session-cards-container {
+  width: 100%;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #d1d4d6;
+}
+.mentor-designation {
+  font-size: 16px;
+  font-weight: 400;
+  color: #636b78;
+}
+.at-text {
+  color: #a1a6ad;
+}
+.session-type-tag {
+  background-color: #6c63ff;
+  border-radius: 10px;
+  color: #fff;
+  height: 20px;
+  width: 60px;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  align-self: flex-start;
+}
+
+.top-matching-mentors-text,
+.meet-mentors-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+.mentorsCards-container {
+  overflow: scroll;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.discover-mentors-post {
+  width: 301px;
+  height: 430px;
+}
+.discover-mentors-img {
+  object-fit: cover;
+}
+.meet-mentors-section {
+  margin: 40px 0;
+}
+
+.bigger-text {
+  width: 900px;
+  height: 200px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+.emoji-text {
+  color: #b9b5f9;
+  font-size: 96px;
+  font-style: normal;
+  white-space: pre-line;
+  font-weight: 700;
+  line-height: 102px; /* 106.25% */
+  letter-spacing: -1.92px;
+}

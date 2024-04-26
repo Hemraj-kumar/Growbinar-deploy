@@ -1,0 +1,40 @@
+.MentorExperienceCard {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.heading-sect {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.org-and-role {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: baseline;
+}
+.designation {
+  font-size: 24px;
+  font-weight: 500;
+  color: #3f3d4d;
+}
+.organization {
+  color: #6a6977;
+  font-size: 16px;
+  font-weight: 500;
+}
+.experience-description {
+  color: #82818d;
+  font-size: 16px;
+  font-weight: 500;
+}
+.work-period {
+  color: #3f3d4d;
+  font-size: 10px;
+  font-weight: 500;
+  background-color: #d1d4d6;
+  border-radius: 5px;
+  padding: 0px 10px;
+  align-self: flex-start;
+}
