@@ -8,7 +8,7 @@ const Data = [
   {
     mentor_image: mentor1,
     name: "Dipanjan De",
-    role: "Full stack data scientist",
+    role: "Full Stack Data Scientist",
     company: "Vince AS",
     experience: "8 years",
     Mentees: "200+",
@@ -20,7 +20,7 @@ const Data = [
     role: "Product Design Lead",
     company: "PayPal",
     experience: "8 years",
-    Mentees: "200+",
+    Mentees: "150+",
     Rating: "9/10",
   },
   {
@@ -29,7 +29,7 @@ const Data = [
     role: "Associate Director of Product Management",
     company: "Lal10",
     experience: "8 years",
-    Mentees: "200+",
+    Mentees: "125+",
     Rating: "9/10",
   },
   {
@@ -38,7 +38,7 @@ const Data = [
     role: "Application Developer",
     company: "Thoughtworks",
     experience: "2 years",
-    Mentees: "200+",
+    Mentees: "100+",
     Rating: "8.5/10",
   },
   {
@@ -47,7 +47,7 @@ const Data = [
     role: "Sales Executive",
     company: "Walmart",
     experience: "5+ year",
-    Mentees: "200+",
+    Mentees: "80+",
     Rating: "8/10",
   },
 ];
