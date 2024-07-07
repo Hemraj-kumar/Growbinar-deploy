@@ -67,7 +67,7 @@ export default function MentorDashboard() {
 
       {/*Made with love from india text */}
       <div className="bigger-text">
-        <p className="emoji-text">Made with love for india.</p>
+        <p className="emoji-text">Made with love for india .</p>
         <img className="w-[200px] h-[200px]" src={emoji} />
       </div>
     </div>
